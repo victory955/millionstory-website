@@ -1,3 +1,12 @@
 [build]
   publish = "."
   functions = "netlify/functions"
+
+# Clean URLs: every path that is not a real file (images, sitemap, robots) or a
+# Netlify Function is answered by the single-page app in index.html, so
+# /about, /for-authors, /contact etc. work on direct visits and refreshes.
+# Functions (/.netlify/functions/* and /api/views) are matched before this rule.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
