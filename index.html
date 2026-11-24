@@ -467,7 +467,7 @@ body[data-page="home"] .hero h1{font-family:'Atteron','Cormorant Garamond',Georg
 .cx-cols{display:grid;grid-template-columns:minmax(0,680px) minmax(0,280px);gap:80px;max-width:1040px;margin:76px auto 30px;justify-content:center;align-items:start}
 .cx-body p{font-size:max(13.5px,calc(19px*var(--fs)));line-height:1.85;margin:0 0 26px;color:var(--ink)}
 .cx-body .cx-lead{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-size:max(13.5px,calc(26px*var(--fs)));line-height:1.5;margin:0 0 38px;padding-bottom:34px;border-bottom:1px solid var(--line)}
-.cx-lead+p::first-letter{font-family:Georgia,"Times New Roman",serif;float:left;font-size:4em;line-height:.82;padding:6px 12px 0 0;color:var(--ink)}
+.cx-body>p:first-child:not(.cx-lead)::first-letter,.cx-lead+p::first-letter{font-family:Georgia,"Times New Roman",serif;float:left;font-size:4em;line-height:.82;padding:6px 12px 0 0;color:var(--ink)}
 .cx-h{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:max(13.5px,calc(28px*var(--fs)));margin:58px 0 20px;color:var(--ink)}
 .cx-pq{margin:50px 0;padding:4px 0 4px 28px;border-left:2px solid var(--ink)}
 .cx-pq p{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-size:max(13.5px,calc(24px*var(--fs)));line-height:1.5;margin:0 0 12px}
@@ -533,7 +533,17 @@ body[data-page="home"] .hp{width:100%;max-width:520px;aspect-ratio:3/4;justify-s
 @media(max-width:900px){.cx-about{grid-template-columns:1fr;gap:26px;margin-top:70px}.cx-grid{grid-template-columns:1fr;gap:40px}.cx-cv{max-width:190px}.cx-in{padding:44px 22px 56px}.cx-cols{grid-template-columns:1fr;gap:40px;margin-top:50px}.cx-side{position:static}.cx-in{padding:70px 24px 120px}}
 @media(max-width:800px){body[data-page="home"] .hero{grid-template-columns:1fr}body[data-page="home"] .hp{justify-self:center;max-width:340px}}
 @media(prefers-reduced-motion:reduce){.cx-b,.cx-snow{animation:none}}
-</style></head><body>
+</style>
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '1877050');
+</script>
+<!-- End MailerLite Universal -->
+</head><body>
 <div class="xb">❄ Merry Christmas from Million Story ❄</div><div class="xl" aria-hidden="true"></div>
 <header><div class="hin"><a href="#/" class="logo" aria-label="Million Story home"><img src="/img/logo.png" alt="Million Story"></a>
 <button class="mb" id="mb" aria-label="Menu" aria-expanded="false" onclick="const n=document.getElementById('nav');const open=n.classList.toggle('open');this.setAttribute('aria-expanded',open);this.textContent=open?'\u2715':'\u2630';">\u2630</button>
