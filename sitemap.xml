@@ -10,13 +10,16 @@
     <loc>https://millionstory.com/conversations</loc>
   </url>
   <url>
-    <loc>https://millionstory.com/journal</loc>
+    <loc>https://millionstory.com/articles</loc>
   </url>
   <url>
     <loc>https://millionstory.com/for-authors</loc>
   </url>
   <url>
     <loc>https://millionstory.com/about</loc>
+  </url>
+  <url>
+    <loc>https://millionstory.com/pricing</loc>
   </url>
   <url>
     <loc>https://millionstory.com/contact</loc>
@@ -112,16 +115,16 @@
     <loc>https://millionstory.com/featured-author/jack-kearney-never-giving-up</loc>
   </url>
   <url>
-    <loc>https://millionstory.com/journal/notes-from-a-reader</loc>
+    <loc>https://millionstory.com/articles/notes-from-a-reader</loc>
   </url>
   <url>
-    <loc>https://millionstory.com/journal/care-for-slower-reading</loc>
+    <loc>https://millionstory.com/articles/care-for-slower-reading</loc>
   </url>
   <url>
-    <loc>https://millionstory.com/journal/the-rise-of-the-book-club</loc>
+    <loc>https://millionstory.com/articles/the-rise-of-the-book-club</loc>
   </url>
   <url>
-    <loc>https://millionstory.com/journal/what-makes-a-story-last</loc>
+    <loc>https://millionstory.com/articles/what-makes-a-story-last</loc>
   </url>
   <url>
     <loc>https://millionstory.com/book/1</loc>
